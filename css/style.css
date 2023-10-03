@@ -1,21 +1,22 @@
 nav ul {
     border: 3px solid rgb(70, 89, 82);
-    padding: 10px;
+    background-color: rgb(151, 166, 128) ;
+
+    padding: 1em;
     margin: auto;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    background-color: rgb(151, 166, 128) ;
     width: 95%
 
 }
 
 nav ul a {
+    border: 2px solid rgb(70, 89, 82) ;
+    background-color: rgb(243, 236, 220) ;
     display: block;
     padding: 0.75em;
     text-decoration: none;
-    border: 2px solid rgb(70, 89, 82) ;
-    background-color: rgb(243, 236, 220) ;
     margin-right: 1em;
     margin-left: 1em;
     color: rgb(70, 89, 82);
@@ -24,49 +25,64 @@ nav ul a {
 }
 
 
+a:hover {
+    color: rgb(243, 236, 220) ;
+    background-color: rgb(70, 89, 82); ;
+}
+
+
 body { 
-    background-color:rgb(243, 236, 220);
+    /* background-color:rgb(243, 236, 220); */
+    background-color:  rgb(239, 226, 205);
     font-family: 'Times New Roman', Times, serif;
 }
 
 h1 {text-align: center;
+    font-size: 250%;
     color:rgb(70, 89, 82) ;}
 
 
-.sa1 {
+/* .sa1 {
     margin-left: auto;
     margin-right: auto;
     display: block;
     width: 60%;
-    height: 350px;
+    height: 22em;
     margin-bottom: 4em;
-}
+} */
 
-
-.sa2 {
-    width: 300px;
+.tot {
+    width: 65vw;
     height: auto;
-    float: right;
-    display: block;
-    padding: 15px;
 }
 
-.kd {
-    width: 300px;
+.totoropic {
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    padding: 6em 4em 6em 4em;
+    justify-content: space-evenly;
+}
+.totpic2,.totpic3 {
+    width: 17vw;
     height: auto;
-    float: right;
-    display: block;
-    padding: 15px;
 }
 
-.totoro {
-    width: 300px;
-    height: auto;
-    float: right;
-    display: block;
-    padding: 15px;
+.totoropic2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
-    
+
+.pic1,.pic2,.pic3{
+    width: 18em;
+    height: auto;
+    /* float: right;
+    display: block; */
+    padding: 1em;
+}
+
+
 .name , .name2 , .name3 {
     height: 4em;
     clear: right;
@@ -76,56 +92,42 @@ h1 {text-align: center;
     margin-right: auto; */
     margin-bottom: 50px;
     margin-top: 0.5em;
-    background-color:rgb(151, 166, 128) ;
+    background-color:beige;
     color: rgb(70, 89, 82);
     font-size: larger;
     padding: 0.6em;
+    font-weight: bold;
 
 
 }
-.img1{
+.img1,.img2,.img3{
     width: 20em;
     flex-direction: column;
     height: 25em;
     display: flex;
+    padding-top: 1em;
     justify-content: center;
     align-items: center;
-}
-
-.img2{
-    width: 20em;
-    flex-direction: column;
-    height: 25em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.img3{
-    width: 20em;
-    flex-direction: column;
-    height: 25em;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background-color:rgb(151, 166, 128) ;
 }
 
 .row {  
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: right;
-    padding-right: 3em;
+    padding-right: 5em;
+    padding-top: 2em;
+    gap: 1em;
 }
 
 .side{
     transform: rotate(270deg);
-    float: left;
     padding: 2em;
     padding-left: 4em;
     padding-right: 4em;
     margin-right: 2em;
-    margin-top: 2em;
+    margin-top: 5em;
     font-size: 200%;
     background-color:rgb(151, 166, 128) ;
     color: rgb(70, 89, 82);
@@ -133,4 +135,87 @@ h1 {text-align: center;
     max-height: 1em;
     display: flex;
     justify-content: center;
+}
+
+ .gallerij {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 3em;
+    margin-right: 3em;
+    padding-left: 1.5em;
+    justify-content: space-evenly;
+    gap: 2em;
+
+ }
+ .gal3,.gal5,.gal7,.gal9,.gal11,.gal13,.gal2,.gal4,.gal6,.gal10,.gal12,.gal14,.gal15,.gal16,.gal17,.gal18,.gal19,.gal20,.gal21,.gal22,.gal23,.gal24 {
+    width: 48.5%;
+    /* width: 42vw; */
+ }
+
+
+/* de movies css */
+
+.howl{
+    padding: 2em 4em 2em 4em;
+    display: flex;
+    gap: 2em;
+    margin: 0 2em 0 2em;
+    /* background-color:rgb(243, 236, 220); */
+    /* border: 2px solid rgb(70, 89, 82); */
+}
+ 
+.howlscastle {
+    width: 20vw;
+    height: auto;
+    padding-top: 3em;
+}
+
+.howls {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+
+.castle{
+    color: rgb(70, 89, 82);
+    font-size: large;
+}
+
+h2 {
+    font-size: 180%;
+    color:rgb(70, 89, 82) ;
+    margin-bottom: -0.5em;
+    margin-top: 0em;
+}
+    
+.about {
+    padding: 0 4em 2em 4em;
+    display: flex;
+    gap: 2em;
+    margin: 0 2em 0 2em;
+    color:rgb(70, 89, 82);
+}
+
+.miyazaki {
+    width: 15vw;
+}
+.logo {
+    width: 15vw;
+}
+.photo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+p:nth-child(2){
+    font-size: larger;
+}
+
+.why {
+    padding-top: 8em;
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
 }
