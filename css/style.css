@@ -7,7 +7,8 @@ nav ul {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    width: 95%
+    width: 95%;
+    flex-wrap: wrap;
 
 }
 
@@ -155,37 +156,39 @@ h1 {text-align: center;
 
 /* de movies css */
 
-.howl{
-    padding: 2em 4em 2em 4em;
-    display: flex;
-    gap: 2em;
-    margin: 0 2em 0 2em;
-    /* background-color:rgb(243, 236, 220); */
-    /* border: 2px solid rgb(70, 89, 82); */
-}
- 
 .howlscastle {
     width: 20vw;
-    height: auto;
     padding-top: 3em;
+
 }
 
 .howls {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    
+    margin-right: 60em;
+    border: 1px solid black;
 }
 
-.castle{
+.howl{
+    padding: 2em 4em 2em 4em;
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    margin: 0 2em 0 2em;
+    flex-wrap: wrap;
+    border: 1px solid black;
+}
+ 
+
+.page3 p:nth-child(2){
     color: rgb(70, 89, 82);
     font-size: large;
 }
 
-h2 {
+.page3 h2 {
     font-size: 180%;
     color:rgb(70, 89, 82) ;
-    margin-bottom: -0.5em;
     margin-top: 0em;
 }
     
@@ -195,6 +198,7 @@ h2 {
     gap: 2em;
     margin: 0 2em 0 2em;
     color:rgb(70, 89, 82);
+    flex-wrap: wrap;
 }
 
 .miyazaki {
@@ -207,15 +211,62 @@ h2 {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
-p:nth-child(2){
+.page1 p:nth-child(2){
     font-size: larger;
+    width: 80%
 }
 
-.why {
-    padding-top: 8em;
+.visit {
+    margin:4em;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.page4 h2 {
+    font-size: 200%;
+    text-align: center;
+    color:rgb(70, 89, 82);
+}
+
+.page4 h3 {
+    color:rgb(70, 89, 82);
+    font-size: 170%;
+    font-weight: bold;
+}
+
+.page4 p {
+    font-size: 120%;
+    margin-top: -1em;
+}
+
+#otherp{
+    margin-top: 2em;
+    margin-bottom: 4em;
+    text-align: center;
+    display: block;
+}
+
+.visitimg{
+    width: 40vw;
+    height: auto;
+}
+
+.reviewbox {
     display: flex;
     flex-direction: row;
-    gap: 2em;
+    margin-bottom: 5em;
+    background-color: rgb(151, 166, 128);
+}
+
+.reviewboxmini {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: rgb(243, 236, 220);
+    padding: 2em;
+    margin: 3em;
 }
