@@ -1,4 +1,4 @@
-nav ul {
+nav {
     border: 3px solid rgb(70, 89, 82);
     background-color: rgb(151, 166, 128) ;
 
@@ -12,7 +12,7 @@ nav ul {
 
 }
 
-nav ul a {
+nav a {
     border: 2px solid rgb(70, 89, 82) ;
     background-color: rgb(243, 236, 220) ;
     display: block;
@@ -156,28 +156,26 @@ h1 {text-align: center;
 
 /* de movies css */
 
-.howlscastle {
+.howlscastle, .spawayimg,.neighbourtotimg {
     width: 20vw;
+    height: max-content;
     padding-top: 3em;
 
 }
 
-.howls {
+.howls,.spaways,.neighbourtots {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    margin-right: 60em;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
-.howl{
+.howl,.spaway,.neighbourtot{
     padding: 2em 4em 2em 4em;
     display: flex;
     flex-direction: row;
     gap: 2em;
     margin: 0 2em 0 2em;
-    flex-wrap: wrap;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
  
 
@@ -198,7 +196,7 @@ h1 {text-align: center;
     gap: 2em;
     margin: 0 2em 0 2em;
     color:rgb(70, 89, 82);
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 }
 
 .miyazaki {
@@ -217,6 +215,7 @@ h1 {text-align: center;
 .page1 p:nth-child(2){
     font-size: larger;
     width: 80%
+
 }
 
 .visit {
@@ -251,7 +250,7 @@ h1 {text-align: center;
 }
 
 .visitimg{
-    width: 40vw;
+    width: 39vw;
     height: auto;
 }
 
@@ -259,6 +258,7 @@ h1 {text-align: center;
     display: flex;
     flex-direction: row;
     margin-bottom: 5em;
+    flex-wrap:wrap;
     background-color: rgb(151, 166, 128);
 }
 
@@ -269,4 +269,5 @@ h1 {text-align: center;
     background-color: rgb(243, 236, 220);
     padding: 2em;
     margin: 3em;
+    width: 38.5em;
 }
