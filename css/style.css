@@ -67,14 +67,14 @@ h1 {text-align: center;
     justify-content: space-between;
 }
 
-.pic1,.pic2,.pic3{
+.pic{
     width: 18em;
     height: auto;
     padding: 1em;
 }
 
 
-.name , .name2 , .name3 {
+.name {
     height: 4em;
     clear: right;
     width: 60%;
@@ -89,7 +89,7 @@ h1 {text-align: center;
 
 
 }
-.img1,.img2,.img3{
+.img{
     width: 20em;
     flex-direction: column;
     height: 25em;
@@ -142,19 +142,19 @@ h1 {text-align: center;
 
 /* de movies css */
 
-.howlscastle, .spawayimg,.neighbourtotimg {
+.imagemov {
     width: 20vw;
     height: max-content;
     padding-top: 3em;
 
 }
 
-.howls,.spaways,.neighbourtots {
+.reviewdiv {
     display: flex;
     flex-direction: column;
 }
 
-.howl,.spaway,.neighbourtot{
+.reviewarticle{
     padding: 2em 4em 2em 4em;
     display: flex;
     flex-direction: row;
