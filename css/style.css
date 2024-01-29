@@ -115,7 +115,7 @@ h1 {text-align: center;
     padding: 2em 4em 2em 4em;
     margin-right: 2em;
     margin-top: 5em;
-    font-size: 200%;
+    font-size: xx-large;
     background-color:rgb(151, 166, 128) ;
     color: beige;
     max-width: 1em;
@@ -124,19 +124,22 @@ h1 {text-align: center;
     justify-content: center;
 }
 
- .gallerij {
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: 3em;
-    margin-right: 3em;
-    padding-left: 1.5em;
-    padding-bottom: 3em;
-    justify-content: space-evenly;
-    gap: 2em;
+.page1 section p {
+    font-size: large;
+}
 
- }
- .gal {
-    width: 48.5%;
+ul {
+
+    list-style-type: none;
+}
+
+ul li {
+    display: inline-block;   
+}
+
+ul li img{
+    width: 42em;
+    padding: 1em;
  }
 
 
@@ -195,11 +198,6 @@ h1 {text-align: center;
     flex-wrap: wrap;
 }
 
-.page1 p:nth-child(2){
-    font-size: larger;
-    width: 80%
-
-}
 
 .visit {
     margin:4em;
